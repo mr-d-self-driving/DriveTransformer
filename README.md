@@ -3,7 +3,7 @@
 # DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving
 </div>
 
-![teaser](docs/overall.png)
+[demo](https://github.com/user-attachments/assets/a14b81b5-89f4-434e-96bc-c2d1f8e28c6c)
 
 >Official implementation of paper [DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving](https://arxiv.org/abs/2503.07656). *Xiaosong Jia, Junqi You, Zhiyuan Zhang, Junchi Yan*. **ICLR 2025**
 
@@ -11,7 +11,9 @@
 **DriveTransformer** offers a unified, parallel, and synergistic approach to end-to-end autonomous driving, facilitating easier training and scalability. The framework is composed of three unified operations: **task self-attention, sensor cross-attention, temporal cross-attention** and has three key features:
 * **Task Parallelism:** All agent, map, and planning queries direct interact with each other at each block.
 * **Sparse Representation:** Task queries direct interact with raw sensor features.
-* **Streaming Processing:** Task queries are stored and passed as history information. 
+* **Streaming Processing:** Task queries are stored and passed as history information.
+
+![overall](docs/overall.png)
 
 
 ## Getting Started
